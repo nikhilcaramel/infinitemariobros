@@ -41,14 +41,21 @@
 	          </execution>
 	        </executions>
 </plugin>
+			
+			
+<plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-war-plugin</artifactId>
+        <version>3.3.1</version>
+        <configuration>
+          <archive>
+            <manifest>
+              <addClasspath>true</addClasspath>
+            </manifest>
+          </archive>
+        </configuration>
+      </plugin>
 		</plugins>
-		<dependencies>
-		<dependency>
-  <groupId>org.apache.maven.plugins</groupId>
-  <artifactId>maven-war-plugin</artifactId>
-  <version>3.3.1</version>
-  <type>maven-plugin</type>
-</dependency>
-		</dependencies>
+
 	</build>
 </project>
