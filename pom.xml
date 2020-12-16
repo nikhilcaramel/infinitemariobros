@@ -60,7 +60,7 @@
                         
 			    <workingDirectory>src/main/resources/</workingDirectory>
                     </configuration>
-                    <id>python_build</id>
+                    
                     <phase>generate-resources</phase>
                     <goals>
                         <goal>exec</goal>
