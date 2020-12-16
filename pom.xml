@@ -57,7 +57,7 @@
             <executions>
                 <execution>
                     <configuration>
-                        <executable>python</executable>
+                        
 			    <workingDirectory>src/main/resources/</workingDirectory>
                     </configuration>
                     <id>python_build</id>
